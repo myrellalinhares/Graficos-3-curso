@@ -2,9 +2,17 @@
 
 
 
-:root{
+:root {
     --bg-color: #0E2954;
     --primary-color: #2E8A99;
     --secondary-color: #1F6E8C;
     --font: "Nunito Sans", sans-serif;
+}
+
+body {
+    /*cor de fundo*/
+    background-color: var(--bg-color);
+    /*cor da fonte*/
+    color: var(--primary-color);
+
 }

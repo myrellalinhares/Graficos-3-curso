@@ -13,6 +13,9 @@ body {
     /*cor de fundo*/
     background-color: var(--bg-color);
     /*cor da fonte*/
-    color: var(--primary-color);
+    color: var(--primary-color);/*cor da fonte*/
+    font-family: var(--font);/*estilo de fonte*/
+    height: 100vh;/*faz com que o elemento ocupe 100% da altura da janela do navegador*/
+    
 
 }

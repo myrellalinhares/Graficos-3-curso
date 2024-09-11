@@ -13,9 +13,26 @@ body {
     /*cor de fundo*/
     background-color: var(--bg-color);
     /*cor da fonte*/
-    color: var(--primary-color);/*cor da fonte*/
-    font-family: var(--font);/*estilo de fonte*/
-    height: 100vh;/*faz com que o elemento ocupe 100% da altura da janela do navegador*/
-    
+    color: var(--primary-color);
+    /*estilo de fonte*/
+    font-family: var(--font);
+    /*faz com que o elemento ocupe 100% da altura da janela do navegador*/
+    height: 100vh;
+    /*margem*/
+    margin: 0;
 
+}
+
+header {
+    /*cor de fundo*/
+    background-color: var(--secondary-color);
+    /* alinhamento de texto ao centro*/
+    text-align: center;
+
+}
+
+h1{
+    font-size: 2rem;/*tamanho da fonte*/
+    color: var(--bg-color);/*cor de fundo*/
+    font-weight: 700;/*peso da fonte*/
 }

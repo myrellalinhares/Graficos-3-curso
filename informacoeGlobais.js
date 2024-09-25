@@ -12,6 +12,12 @@ console.log(dados);//visualizar as imforações no console
 const paragrafo=document.createElement('p');//criar um parágrafo
 paragrafo.classList.add('graficos-container__texto');//adiciona uma clase do css ao parágrafo
 /*insere um texto "Você sabia que o mundo tem " +*/
-paragrafo.innerHTML =`Você sabia que o mundo tem ${dados.total_pessoas_mundo}`
+paragrafo.innerHTML =`Você sabia que o mundo tem ${dados.total_pessoas_mundo} de pessoas e que aproximadamente ${dados.total_pessoas_conectadas}
+estão conectadas em alguma rede social e passam em média ${dados.tempo_medio}horas conectadas`//Insere o texto "Você sabia que o mundo tem"+total_pessoas_mundo                              
+const container=document.getElementById('grafico-container') //cria a variável "container",seleciona o ID(garficos-container) na section do HTML
+container.appendChild(paragrafo);//Insere o paragrafo dentro do "container"
+
+
+
 }
 visualizarInformacoesGlobais();//chama a função
